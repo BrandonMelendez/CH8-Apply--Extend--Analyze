@@ -1,8 +1,9 @@
 /*
-Author:
-Date:
-File Name: 
+Author: Brandon Melendez
+Date: 4/3/24
+File Name: styles08.css
 */
+
 
 /* Style for body specifies a background color */
 body {
@@ -12,7 +13,7 @@ body {
 
 /* Style for the container element */
 #container {
-	width: 90%;
+	width: 50%;
 	margin: 0 auto;
 }
 
@@ -25,8 +26,45 @@ footer {
 	text-align: center;
 }
 
+/*Style rules for mobile*/
+fieldset, input {
+	margin-bottom: 3%;
+}
+
+fieldset legend {
+	font-size: 1.25em;
+	font-weight: bold;
+}
+
+.btn {
+	border: none;
+	margin: 0 auto;
+	display: block;
+	padding: 5%;
+	background-color: #003399;
+	font-size: 1.25em;
+	border-radius: 10px;
+	color: #fff;
+}
+
 /* Media query for tablet layout */ 
 @media only screen and (min-width: 600px) {
 
-    
+	form {
+		width: 50%;
+		margin: 0 auto;
+	}
+
+	.grid {
+		display: inline-grid;
+		grid-template-columns: auto auto;
+		grid-gap: 20px;
+
+
+	}
+
+	.btn {
+		grid-column: 1 / span 2;
+		padding: 3%;
+	}
 }
