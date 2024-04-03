@@ -1,0 +1,59 @@
+/*
+Author:Brandon Melendez
+Date:4/1/24
+File Name: styles08.css
+*/
+
+/* CSS Reset */
+body, main, footer, table {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+/* Style rule for body */
+body {
+	background-color: #ffe5de;
+}
+
+/*Style rule for main*/
+main {
+	font-family: Verdana, sans-serif;
+}
+
+/* Style for the footer element */
+footer {
+	font-size: .70em;
+	text-align: center;
+}
+
+/*Style rules for the table element*/
+table {
+	width: 80%;
+	margin: 0 auto;
+	border: 3px solid #fd4d0c;
+	box-shadow: #792101;
+}
+
+table, tr, th, td {
+	border-collapse: collapse;
+	padding: 2%;
+}
+
+caption {
+	font-size: 2em;
+	padding: 2%;
+	margin-top: 2%;
+}
+
+th, td {
+	border: 1px solid #a22c02;
+}
+
+td {
+	text-align: center;
+}
+
+tr:nth-child(odd){
+	background-color: #fe9772 ;
+}
